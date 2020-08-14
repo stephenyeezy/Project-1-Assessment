@@ -1,15 +1,16 @@
-// variables
+/*----- app's state (variables) -----*/
 let inputValue;
 let displayTotal;
 
-// element reference
+/*----- cached element references -----*/
 numberEl = document.querySelector("input");
 runTotalEl = document.querySelector('h3')
-// event listeners
+
+/*----- event listeners -----*/
 document.getElementById("plus").addEventListener('click', addTotal)
 document.getElementById("minus").addEventListener('click', subTotal)
-// functions
 
+/*----- functions -----*/
 let i = parseInt(numberEl.value)
 
 init();
